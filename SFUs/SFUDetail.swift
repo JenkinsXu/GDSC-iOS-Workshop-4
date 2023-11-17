@@ -8,11 +8,38 @@
 import SwiftUI
 
 struct SFUDetail: View {
+    let sfu: SFU
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack {
+                CircleImage(imageName: sfu.imageName)
+                    .padding(.bottom, 32)
+                VStack(alignment: .leading) {
+                    Text(sfu.name)
+                        .font(.title2)
+                        .bold()
+                    HStack {
+                        Text(sfu.street)
+                        Spacer()
+                        Text(sfu.city)
+                    }
+                    .foregroundStyle(.secondary)
+                    
+                    Divider()
+                        .padding(.bottom, 16)
+                    
+                    Text("About this SFU")
+                        .font(.title3)
+                    
+                    Text(sfu.description)
+                }
+            }
+            .padding()
+        }
     }
 }
 
 #Preview {
-    SFUDetail()
+    SFUDetail(sfu: ModelData().sfus[0])
 }

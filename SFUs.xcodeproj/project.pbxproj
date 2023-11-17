@@ -11,6 +11,13 @@
 		9A462DB32B070548002CD132 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DB22B070548002CD132 /* ContentView.swift */; };
 		9A462DB52B07054A002CD132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A462DB42B07054A002CD132 /* Assets.xcassets */; };
 		9A462DB82B07054A002CD132 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A462DB72B07054A002CD132 /* Preview Assets.xcassets */; };
+		9A462DC12B070636002CD132 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DC02B070636002CD132 /* CircleImage.swift */; };
+		9A462DC32B070704002CD132 /* SFUDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DC22B070704002CD132 /* SFUDetail.swift */; };
+		9A462DC52B07082E002CD132 /* SFU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DC42B07082E002CD132 /* SFU.swift */; };
+		9A462DC72B0708F0002CD132 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DC62B0708F0002CD132 /* ModelData.swift */; };
+		9A462DC92B070923002CD132 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DC82B070923002CD132 /* ImageName.swift */; };
+		9A462DCB2B07095A002CD132 /* SFUList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DCA2B07095A002CD132 /* SFUList.swift */; };
+		9A462DCD2B070A85002CD132 /* SFURow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DCC2B070A85002CD132 /* SFURow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		9A462DB22B070548002CD132 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A462DB42B07054A002CD132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A462DB72B07054A002CD132 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A462DC02B070636002CD132 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9A462DC22B070704002CD132 /* SFUDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFUDetail.swift; sourceTree = "<group>"; };
+		9A462DC42B07082E002CD132 /* SFU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFU.swift; sourceTree = "<group>"; };
+		9A462DC62B0708F0002CD132 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		9A462DC82B070923002CD132 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		9A462DCA2B07095A002CD132 /* SFUList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFUList.swift; sourceTree = "<group>"; };
+		9A462DCC2B070A85002CD132 /* SFURow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFURow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 				9A462DB02B070548002CD132 /* SFUsApp.swift */,
 				9A462DB22B070548002CD132 /* ContentView.swift */,
 				9A462DB42B07054A002CD132 /* Assets.xcassets */,
+				9A462DC02B070636002CD132 /* CircleImage.swift */,
+				9A462DC22B070704002CD132 /* SFUDetail.swift */,
+				9A462DC42B07082E002CD132 /* SFU.swift */,
+				9A462DC62B0708F0002CD132 /* ModelData.swift */,
+				9A462DCA2B07095A002CD132 /* SFUList.swift */,
+				9A462DCC2B070A85002CD132 /* SFURow.swift */,
+				9A462DC82B070923002CD132 /* ImageName.swift */,
 				9A462DB62B07054A002CD132 /* Preview Content */,
 			);
 			path = SFUs;
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A462DB32B070548002CD132 /* ContentView.swift in Sources */,
+				9A462DC52B07082E002CD132 /* SFU.swift in Sources */,
+				9A462DCB2B07095A002CD132 /* SFUList.swift in Sources */,
+				9A462DC92B070923002CD132 /* ImageName.swift in Sources */,
 				9A462DB12B070548002CD132 /* SFUsApp.swift in Sources */,
+				9A462DC12B070636002CD132 /* CircleImage.swift in Sources */,
+				9A462DC32B070704002CD132 /* SFUDetail.swift in Sources */,
+				9A462DCD2B070A85002CD132 /* SFURow.swift in Sources */,
+				9A462DC72B0708F0002CD132 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

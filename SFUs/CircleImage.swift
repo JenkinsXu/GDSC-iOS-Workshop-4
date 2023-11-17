@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct CircleImage: View {
+    let imageName: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(imageName)
+            .resizable()
+            .frame(width: 250, height: 250)
+            .clipShape(Circle())
+            .overlay {
+                Circle()
+                    .stroke(.secondary, lineWidth: 1.0)
+            }
+            .shadow(radius: 25, y: 10)
     }
 }
 
 #Preview {
-    CircleImage()
+    CircleImage(imageName: "patrik-allmann-gLQRBVSO-FE-unsplash")
 }
