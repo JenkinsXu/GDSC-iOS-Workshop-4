@@ -11,7 +11,8 @@ import SwiftUI
 struct SFUsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SFUList()
+                .environment(ModelData())
         }
     }
 }

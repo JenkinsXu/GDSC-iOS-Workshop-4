@@ -18,6 +18,7 @@
 		9A462DC92B070923002CD132 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DC82B070923002CD132 /* ImageName.swift */; };
 		9A462DCB2B07095A002CD132 /* SFUList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DCA2B07095A002CD132 /* SFUList.swift */; };
 		9A462DCD2B070A85002CD132 /* SFURow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DCC2B070A85002CD132 /* SFURow.swift */; };
+		9A462DCF2B0719AC002CD132 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A462DCE2B0719AC002CD132 /* FavouriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9A462DC82B070923002CD132 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
 		9A462DCA2B07095A002CD132 /* SFUList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFUList.swift; sourceTree = "<group>"; };
 		9A462DCC2B070A85002CD132 /* SFURow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFURow.swift; sourceTree = "<group>"; };
+		9A462DCE2B0719AC002CD132 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				9A462DC42B07082E002CD132 /* SFU.swift */,
 				9A462DC62B0708F0002CD132 /* ModelData.swift */,
 				9A462DCA2B07095A002CD132 /* SFUList.swift */,
+				9A462DCE2B0719AC002CD132 /* FavouriteButton.swift */,
 				9A462DCC2B070A85002CD132 /* SFURow.swift */,
 				9A462DC82B070923002CD132 /* ImageName.swift */,
 				9A462DB62B07054A002CD132 /* Preview Content */,
@@ -163,6 +166,7 @@
 				9A462DCB2B07095A002CD132 /* SFUList.swift in Sources */,
 				9A462DC92B070923002CD132 /* ImageName.swift in Sources */,
 				9A462DB12B070548002CD132 /* SFUsApp.swift in Sources */,
+				9A462DCF2B0719AC002CD132 /* FavouriteButton.swift in Sources */,
 				9A462DC12B070636002CD132 /* CircleImage.swift in Sources */,
 				9A462DC32B070704002CD132 /* SFUDetail.swift in Sources */,
 				9A462DCD2B070A85002CD132 /* SFURow.swift in Sources */,

@@ -1,5 +1,6 @@
 import SwiftUI
 
+@Observable
 class SFU: Identifiable {
     let id: Int
     let imageName: String

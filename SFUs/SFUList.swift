@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct SFUList: View {
-    let sfus: [SFU]
+    @Environment(ModelData.self) var modelData
     @State private var showFavoritesOnly = false
     
     var filteredSFUs: [SFU] {
-        sfus.filter { sfu in
+        modelData.sfus.filter { sfu in
             !showFavoritesOnly || sfu.isFavourite
         }
     }
@@ -41,5 +41,6 @@ struct SFUList: View {
 }
 
 #Preview {
-    SFUList(sfus: ModelData().sfus)
+    SFUList()
+        .environment(ModelData())
 }

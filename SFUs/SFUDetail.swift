@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SFUDetail: View {
-    let sfu: SFU
+    @Bindable var sfu: SFU
     
     var body: some View {
         ScrollView {
@@ -16,9 +16,12 @@ struct SFUDetail: View {
                 CircleImage(imageName: sfu.imageName)
                     .padding(.bottom, 32)
                 VStack(alignment: .leading) {
-                    Text(sfu.name)
-                        .font(.title2)
-                        .bold()
+                    HStack {
+                        Text(sfu.name)
+                            .font(.title2)
+                            .bold()
+                        FavouriteButton(isSet: $sfu.isFavourite)
+                    }
                     HStack {
                         Text(sfu.street)
                         Spacer()
